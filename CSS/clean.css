@@ -14,3 +14,27 @@ body{
     font-weight:700;
     font-size:clamp(24px,5vw,48px);
 }
+
+/*SEPERATOR BANNER*/
+.seperator{
+    background-image: url('images/cat.jpg');
+    border:3px solid #bbb;
+    height:20vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+}
+
+.sephead{
+    position:absolute;
+    bottom:18px;
+    text-align:center;
+}
+#backtotop{
+    position:fixed;
+    bottom:32px;
+    right:32px;
+    width:48px;
+    height:48px;
+}
