@@ -15,6 +15,92 @@ body{
     font-size:clamp(24px,5vw,48px);
 }
 
+/*CLEAN ENERGY*/
+.mycontainer{
+    display:flex;
+    align-items:center;
+    width:90vw;
+    margin: 20px;
+}
+
+/* LEFT IMAGE*/
+.left{
+    min-width:220px;
+    height:54vh;
+    max-height:64vh;
+    border-radius:8px;
+    flex-shrink:0;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    border:3px solid #bbb;
+}
+.left img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+/* RIGHT CONTENT */
+.right{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+    overflow:auto;
+    align-items:center;        /* center everything inside the right section */
+    text-align:center;         
+    padding:0 12px;            /* padding so centered text wraps better */
+}
+.title{
+    margin:0;
+    font-size:1.8rem;
+    color:#222;
+    font-weight:700;
+    width:100%;
+    max-width:72ch;           
+}
+.description{
+    margin:0;
+    color:#222;
+    font-size:1rem;
+    width:100%;
+    max-width:72ch;
+}
+
+/* energylinks row */
+.energylinks{
+    display:flex;
+    gap:18px;
+    margin-top:6px;
+    flex-wrap:nowrap;
+    align-items:center;
+    justify-content:center; 
+}
+.energylinks a{
+    display:inline-block;
+    width:120px;
+    height:120px;
+    border-radius:6px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.06);
+    transition:transform .15s ease, box-shadow .15s ease;
+    text-decoration:none;
+    color:inherit;
+    border:2px solid #ddd;
+}
+.energylinks a:hover{
+    transform:translateY(-6px);
+    box-shadow:0 12px 24px rgba(0,0,0,0.12);
+}
+.energylinks img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
 /*SEPERATOR BANNER*/
 .seperator{
     background-image: url('images/cat.jpg');
