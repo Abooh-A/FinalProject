@@ -103,7 +103,7 @@ body{
 
 /*SEPERATOR BANNER*/
 .seperator{
-    background-image: url('images/cat.jpg');
+    background-image: url('../images/cat.jpg');
     border:3px solid #bbb;
     height:20vh;
     display:flex;
@@ -117,10 +117,17 @@ body{
     bottom:18px;
     text-align:center;
 }
+/* Back to top button */
 #backtotop{
     position:fixed;
     bottom:32px;
     right:32px;
     width:48px;
     height:48px;
+}
+
+/* Centering bootstrap cards */
+.energycards{
+    display:flex;
+    justify-content:center;
 }
