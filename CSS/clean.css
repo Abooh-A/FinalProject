@@ -12,7 +12,7 @@ body{
     font-size: 80px;
     color: #197C9D; 
     text-align: center;	
-    margin-top: 20px;
+    margin-top: 40px;
     text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
 
 }
@@ -21,6 +21,10 @@ body{
     background-color: #1E424E;
     font-size: 1rem;
     font-weight: bold;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
 }
 .main-nav ul {
   list-style-type: none;
@@ -485,7 +489,9 @@ img#logo {
 /*=========REAL APPLICATIONS===========*/
 .realintro{
     text-align: center;
-    padding: 20px;
+    padding-bottom: 20px;
+    width: 60vw;
+    margin: 20px auto;
 }
 
 .table {
