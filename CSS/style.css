@@ -6,6 +6,7 @@ body{
     overflow-x: auto;
     box-sizing: border-box;
     padding-top: 48px;
+    margin: 0;
 }
 
 * {
@@ -13,7 +14,7 @@ body{
 }
 
 .site-header {
-    /* font-family: "Exo 2", sans-serif; */
+    
     font-optical-sizing: auto;
     font-size: 80px;
     color: #197C9D; 
@@ -22,7 +23,7 @@ body{
     text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
 
 }
-/*=========Navbar========*/
+/*=========NAVBAR & FOOTER========Obaapanin Agyekum*/
 .main-nav {
     background-color: #1E424E;
     font-size: 1rem;
@@ -85,8 +86,6 @@ img#logo {
     padding: 14px 16px;
     align-items: center;
 }
-
-/* Footer Styles */
 .main-footer {
     background-color: #1E424E;
     color: white;
@@ -325,6 +324,7 @@ img#logo {
         gap: 10px;
     }
 }
+/*=======NAVBAR & FOOTER END======== Obaapanin Agyekum*/
 /*======HOMEPAGE========Eesha Penkey*/
 .mainpage {
     margin-top: 52px;
@@ -353,7 +353,7 @@ img#logo {
     text-align: center;
     margin-top: 0; 
     flex-grow: 1; 
-    /* font-family: "Exo 2", sans-serif; */
+    
     font-weight: 900;
     font-style: normal;
     font-size: 70px;
@@ -398,7 +398,7 @@ img#logo {
 .icon-container a {
     text-decoration: none; 
     color: black; 
-	/* font-family: "Exo 2", sans-serif; */
+	
 	font-weight:800;
 }
 .icon-container a > div {
@@ -416,14 +416,6 @@ img#logo {
     font-size: 16px; 
     text-align: center;
 }
-/* .banner-line {
-  border: none;
-  border-top: 2px solid #1E424E;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-} */
 .moving-banner-container {
   width: 100%;
   overflow: hidden; 
@@ -439,7 +431,7 @@ img#logo {
 }
 .idea-item {
   color: #1E424E; 
-  /* font-family: "Exo 2", sans-serif; */
+  
   font-weight: 800;
   font-style: normal;
   font-size: 17px;
@@ -464,7 +456,7 @@ img#logo {
     transform: translateX(-100%);
   }
 }
-
+/*=======HOMEPAGE END========Eesha Penkey*/
 /*=======CLEAN ENERGY============ Obaapanin Agyekum*/
 .mycontainer{
     display:flex;
@@ -598,20 +590,20 @@ img#logo {
 }
 
 /* Bootstrap card styling */
-.card{
+.energycards .card{
     background-color: #fff8dd;
     border: 2px solid #197C9D;
     border-radius: 20px;
     overflow: hidden;
 }
-.card-img-top{
+.energycards .card-img-top{
     border-radius: 18px 18px 0 0;
 }
-.card-body{
+.energycards  .card-body{
     background-color: #fff8dd;
     border-radius: 20px;
 }
-.card-img-middle{
+.energycards .card-img-middle{
     display: block;
     margin: auto;
     height: auto;
@@ -619,7 +611,7 @@ img#logo {
     object-fit: contain;
     border-radius: 18px;
 }
-.card.text-center{
+.energycards .card.text-center{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -644,8 +636,250 @@ img#logo {
         width: 100%;
     }
 }
+/*=======CLEAN ENERGY END======== Obaapanin Agyekum*/
+/*======GOALS PAGE========Sidorela Matarangasi*/
+.different h1 {color: #1E424E;
+	text-align:center;
+}
 
-/*=========REAL APPLICATIONS===========*/
+#lefttext {
+    font-weight: 600;
+    font-size: 23px;
+    text-align: justify;
+    line-height: 1.7;
+    background-color: rgba(255,255,255,0.3);
+    width: 50%;               /* take about half the container width */
+    max-width: 750px;         /* optional max width */
+    padding: 20px;            /* spacing inside the box */
+    margin: 100px 20px 0 80px; /* top, right, bottom, left */
+    box-sizing: border-box;   /* include padding in width */
+    display: inline-block;    /* allows an image next to it */
+    vertical-align: top;      /* aligns with image top */
+}	
+	
+		
+.list {float: right;
+		margin-right:150px;
+		margin-top: 50px;
+		font-weight: bold;
+		font-size: 27px;
+		}
+
+@media (max-width: 768px) {
+	.list {
+		float: none;
+		margin-right: 0;
+		margin-left: 20px;
+		font-size: 18px;
+	}
+}
+
+.block::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#thirdpara {font-weight: 600; 
+	
+    font-size: 22px;
+    float: left;
+    position: relative;  
+    left: 20px;      
+    top: 60px;          
+    text-align: justify;
+    line-height: 2;
+    background-color: rgba(255,255,255,0.3);
+}
+
+#miloi {
+    width: 700px;
+    position: relative;  
+    left: 20px;      
+}
+
+.fourthpa {
+    text-align: center;          
+    font-weight: 500;    
+    font-size: 27px;
+    line-height: 1.7;
+    background-color: rgba(255,255,255,0.3); 
+    margin: 0 auto 20px auto; /* centers and leaves 20px space above footer */
+    width: fit-content;        /* shrink to content width */
+    display: block;
+}
+
+.different { background-image: url("../images/background.jpg");
+}
+
+.firstdiv {background-color:#f6bd1fff;
+  }
+
+#video {width: 900px;
+		height: 700px;
+		display: block;
+		margin: 0 auto;
+		margin-top: 120px;
+}
+
+
+.bubbles {
+  display: flex;          /* horizontal layout */
+  gap: 200px;            
+  justify-content: center; 
+  align-items: center;
+  margin-top: 100px;
+}
+
+.bubbles button {
+	width: 230px;
+	height: 230px;
+	border-radius: 50%;
+	background-image: url("../images/anemomiloi.jpg");
+	background-size: cover;
+	background-position: center;
+	font-size: 14px;
+	animation: spin 4s linear infinite;
+	display: inline-block;  
+	position: relative;
+}
+
+.bubbles button.stop-rotate {
+  animation-play-state: paused;
+}
+
+.bubble-text {font-weight: 300;
+    font-size: 30px;
+	background-color: rgba(255,255,255,0.3);
+	width: 500px;
+	text-align: center;
+	display: none;
+}
+
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* stop spinning when class is added */
+.bubbles button.stop-rotate {
+  animation-play-state: paused;
+}
+
+#footer {text-align: center;
+	font-weight: semi-bold;
+	font-size: 20px;
+	border: solid grey;
+	padding:20px;
+	margin-top:100px;}
+	
+#graph {width: 700px;
+		}
+		
+@keyframes appear{
+	from {
+		opacity:0;
+		scale: 1;
+	}
+		to {
+			opacity: 1;
+			scale: 1;
+		}
+}
+
+#bulp {animation: appear 1s linear; 
+}
+
+#graph {animation: appear linear;
+		animation-timeline: view();
+		animation-range: entry 20%;
+		}
+#worker {animation: appear linear;
+		animation-timeline: view();
+		animation-range: entry 10%;
+}
+
+#worker {margin-left:40px;
+		margin-top: 30px;}
+
+#lamps {animation: appear linear;
+		animation-timeline: view();
+		animation-range: entry 40%;
+}	
+
+@keyframes appear{
+	from {
+		opacity:0;
+		clip-path: inset(100% 100% 0 0;)
+	}
+		to {
+			opacity: 1;
+			clip-path: inset(0 0 0 0);
+		}
+}
+
+#lefttext {animation: appear linear;
+		animation-timeline: view();
+		animation-range: entry 0%;
+		}
+
+.list {animation: appear linear;
+		animation-timeline: view();
+		animation-range: entry 0%; cover 30%;
+		}
+@keyframes appearLeft {
+	from {
+		opacity: 0;
+		clip-path: inset(0 100% 0 0); /* hide from left */
+		transform: translateX(-50px); /* move from left */
+	}
+	to {
+		opacity: 1;
+		clip-path: inset(0 0 0 0);
+		transform: translateX(0);
+	}
+}
+
+@keyframes appearRight {
+	from {
+		opacity: 0;
+		clip-path: inset(0 0 0 100%); 
+		transform: translateX(50px); 
+	}
+	to {
+		opacity: 1;
+		clip-path: inset(0 0 0 0);
+		transform: translateX(0);
+	}
+}
+
+#lefttext {
+	animation: appearLeft 2s linear forwards;
+	animation-timeline: view();
+	animation-range: entry 0%;
+}
+
+.list {
+	animation: appearRight 2s linear forwards;
+	animation-timeline: view();
+	animation-range: entry 0% cover 20%;
+}
+#planet{float: right;
+	margin-top: 150px;
+	margin-right:30px;
+	}
+
+#graph {width: 800px;
+		float:right;
+		margin-top:100px;
+		margin-right: 50px;
+		}
+#lamps {margin-left:80px;
+		margin-top:30px;
+		margin-bottom: 50px;}
+/*======GOALS END============Sidorela Matarangasi*/	
+/*=========REAL APPLICATIONS===========Obaapanin Agyekum*/
 .realintro{
     text-align: center;
     padding-bottom: 20px;
@@ -741,10 +975,94 @@ img#logo {
         width: 100%;
     }
 }
+/*======LEARNING RESOURCES========Sidorela Matarangasi*/
+#sid {text-align: center;
+	font-weight: 400px;
+	margin-top: 200px;
+	margin-bottom:200px;
+	-webkit-text-stroke: 1px black;
+	/* text-shadow: 2px 2px #197c9dff; */
+    color:#ffffff;
+    font-size: 50px;
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+	}
+	
+.card {
+	width:450px;
+	height: 460px;
+	perspective: 1000px;
+	margin-bottom: 50px;
+}
 
-/*======ABOUT US PAGE========*/
+
+.card__inner {
+	width: 100%;
+	height: 100%;
+	transition: transform 1s;
+	transform-style: preserve-3d;
+	cursor: pointer;
+	position: relative;
+}
+
+.card__inner.is-flipped {
+	transform: rotateY(180deg);
+}
+
+.card__face {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	overflow: hidden;
+	border-radius: 16px;
+	box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+	
+}
+
+.card__face--front {
+	align-items: center;
+	flex-direction: column;
+	}
+
+.card__face--front img {
+  width: 100%;
+  height: 100%;
+    /* scales to fit entirely inside card */
+}
+
+
+.card__face--back {
+	background-color: #fff8dd;
+	transform: rotateY(180deg);
+	justify-content:center;
+	text-align:center;
+	display:flex;
+}
+
+.card__content p {
+	font-size: 30px;
+	font-weight: 600;
+	justify-content: center;
+	color:  #1e424eff;
+	
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 250px;           /* space between cards */
+  justify-content: center;
+}
+
+.card {animation: appear linear;
+		animation-timeline: view();
+		animation-range: entry 10%;
+		}
+/*======LEARNING RESOURCES END========Sidorela Matarangasi*/
+/*======ABOUT ========Eesha Penkey*/
 .abouthead {
-  /* font-family: "Exo 2", sans-serif; */
+  
   font-weight: 900;
   font-style: normal;
   font-size: 80px;
@@ -753,7 +1071,7 @@ img#logo {
   margin-top: 70px;
 }
 .text-content-container {
-  /* font-family: "Exo 2", sans-serif; */
+  
   font-optical-sizing: auto;
   font-weight: 350;
   font-style: normal;
@@ -786,13 +1104,14 @@ img#logo {
   max-width: 800px;
    position: relative;
 }
-.logo {
+.aboutlogo {
   float: right;
   margin-left: 30px; 
   margin-bottom: 10px;
   position: absolute;
   top: 0; 
   right: -250px;
+  border-radius: 20px;
 }
 .pic2 {
   float: right;
@@ -801,6 +1120,9 @@ img#logo {
   position: absolute;
   top: 0; 
   right: -550px;
+  border-radius: 20px;
+  height: 230px;
+  width: 250px;
 }
 
 .wind {
@@ -811,6 +1133,9 @@ img#logo {
   top: 0; 
   right: -550px;
   margin-top: 250px;
+  border-radius: 20px;
+  height: 300px;
+  width: 530px;
  
 }
 
@@ -822,7 +1147,11 @@ img#logo {
     align-items: flex-start; 
     margin-top: 50px; 
 }
-
+.profileimg {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
 .member-profile {
     text-align: center; 
     margin: 10px; 
@@ -839,7 +1168,7 @@ img#logo {
     text-align: center;
     margin-bottom: 30px; 
     margin-top: 30px;
-    /* font-family: "Exo 2", sans-serif; */
+     
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
@@ -888,7 +1217,6 @@ img#logo {
     text-align: left;
     font-size: 14px;
     font-weight: bold;
-    /* font-family: "Exo 2", sans-serif; */
     margin-bottom: 0;
 }
 
@@ -898,7 +1226,6 @@ img#logo {
     line-height: 1.1;
     margin: 0;
     font-weight: 800;
-    /* font-family: "Exo 2", sans-serif; */
 }
 
 
@@ -979,3 +1306,4 @@ img#logo {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/*======ABOUT US END========Eesha Penkey*/
