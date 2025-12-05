@@ -10,7 +10,8 @@ function showText(button, message) {
     button.appendChild(bubbleText);
 }
 
-function toggleMenu() { //Obaapanin
+//Responsive Navbar Obaapanin
+function toggleMenu() { 
     const navItems = document.querySelector('.nav-items');
     const barsIcon = document.querySelector('.bars i');
     
