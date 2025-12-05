@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+	<title>LEARNING</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="CSS/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Sidorela Matarangasi">
+	
+<body>
+		
+	<!--this is a navbar-->
+		<nav class="main-nav">
+            <ul>
+                <a href="index.html"><img id="logo" src="images/logotransparentthin.png" alt="Logo"></a>
+			    <li><a href="index.html">Goal 7: Affordable and Clean Energy</a></li>
+				<div class="bars" onclick="toggleMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="nav-items">
+				    <li class="spacer"></li>
+				    <li><a href="cleanenergy.html">Clean Energy</a></li>
+                    <li><a href="goals.html">Goals by 2030</a></li>
+				    <li><a href="realapps.html">Applications</a></li>
+                    <li><a href="energysave.html">Energy Saving</a></li>
+				    <li><a href="energycalculator.html">Energy Calculator</a></li>
+                    <li><a href="learning.html">Learning Resources</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </div>			
+            </ul>
+        </nav>
+
+		<header class="site-header" id="top">LEARNING RESOURCES</header>
+		<!-- <h1>Learning Resources</h1> -->
+
+		<div class="bubbles-container">
+	<div class="bubbles">
+
+		<!-- BUBBLE 1 -->
+		<div class="bubble-wrapper">
+		<button id="bubble1"
+				onmouseover="showText(this, `Saving energy helps protect our planet and reduces electricity bills.
+	Turn off lights and devices when not in use to conserve power.
+	Use energy-efficient appliances like LED bulbs and smart thermostats.
+	Rely on natural light and ventilation whenever possible.
+	Small changes in daily habits can make a big difference for the environment.`)"
+				onmouseout="hideText(this)">
+		</button>
+		<span class="bubble-text"></span>
+		</div>
+
+		<!-- BUBBLE 2 -->
+		<div class="bubble-wrapper">
+		<button id="bubble2"
+				onmouseover="showText(this, `Sustainable choices reduce long-term energy expenses and increase financial stability.
+	Investing in efficient systems, like solar or smart meters, delivers measurable returns.
+	Lower consumption means lower bills and stronger household savings.
+	Green practices also protect resources, supporting long-term economic resilience.
+	Smart financial planning and sustainability work together to build a secure future.`)"
+			onmouseout="hideText(this)">
+		</button>
+		<span class="bubble-text"></span>
+		</div>
+
+		<!-- BUBBLE 3 -->
+		<div class="bubble-wrapper">
+		<button id="bubble3"
+				onmouseover="showText(this, `Choose products from businesses that prioritize sustainability.
+	Participate in local energy-saving programs.
+	Every responsible choice strengthens our environment.`)"
+				onmouseout="hideText(this)">
+		</button>
+		
+			<span class="bubble-text"></span>
+			
+		</div>
+
+	</div>
+		</div>
+
+		<h2 id="sid"> DID YOU KNOW THAT...</h2>
+
+			<!--this is flipping cards-->
+		<div class="cards-container">
+			<div class="card">
+				<div class="card__inner">
+				<div class="card__face card__face--front"> 
+				<img id="tv" src="images/tv.jpg" alt="image of tv"/>
+				</div>
+			
+				<div class="card__face card__face--back">
+				<div class="card__content">
+				<p> Recycling one aluminum can saves enough energy to run a TV for 3 hours. Switching from an old CRT TV to a modern LED TV can reduce energy consumption by up to 80%!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<div class="card">
+				<div class="card__inner">
+				<div class="card__face card__face--front"> 
+				<img id="plantseed" src="images/plantaseed.jpg" alt="image of plant"/>
+				</div>
+			
+				<div class="card__face card__face--back">
+				<div class="card__content">
+				<p>One mature tree can absorb approximately 48 pounds (22 kg) of CO₂ per year. One mature tree can absorb approximately 48 pounds (22 kg) of CO₂ per year!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+			<div class="card">
+				<div class="card__inner">
+				<div class="card__face card__face--front"> 
+				<img id="machinewash" src="images/washing.jpg" alt="image of machine"/>
+				</div>
+			
+				<div class="card__face card__face--back">
+				<div class="card__content">
+				<p>Washing clothes in cold water can save over 500 pounds of CO₂ per year. Line-drying your clothes instead of using a dryer can save over 700 pounds of CO₂ per year!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+			<div class="card">
+				<div class="card__inner">
+				<div class="card__face card__face--front"> 
+				<img id="ebike" src="images/ebike.jpg" alt="image of ebike"/>
+				</div>
+			
+				<div class="card__face card__face--back">
+				<div class="card__content">
+				<p>Electric vehicles (EVs) produce zero tailpipe emissions, helping reduce air pollution and combat climate change. E-bikes provide pedal assistance, making longer trips easier while still producing minimal emissions. Both options save money on fuel and maintenance compared to traditional cars.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+			<div class="card">
+				<div class="card__inner">
+				<div class="card__face card__face--front"> 
+				<img id="unplug" src="images/unplug.jpg" alt="image of plugs"/>
+				</div>
+			
+				<div class="card__face card__face--back">
+				<div class="card__content">
+				<p>Unplugging chargers and electronics when not in use can save up to 200 pounds of CO₂ per year per household. devices left plugged in on standby mode still consume electricity, which can add up to hundreds of kilowatt-hours annually</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="card">
+				<div class="card__inner">
+				<div class="card__face card__face--front"> 
+				<img id="stove" src="images/stove.jpg" alt="image of stove"/>
+				</div>
+			
+				<div class="card__face card__face--back">
+				<div class="card__content">
+				<p>Using the right-sized burner for your pot or pan can prevent wasted energy on the stove. A convection oven instead of a conventional oven can reduce cooking time and energy use by up to 25%.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+			
+		</div>
+
+	<!--Footer-->			
+	<footer class="main-footer">
+        <div class="footer-main-content">
+            <div class="footer-left">
+                <div class="footer-title-section">
+                    <h2 class="footer-title">Goal 7: Affordable & Clean Energy</h2>
+                </div>
+                
+                <div class="footer-content">
+                    <div class="footer-columns">
+                        <div class="footer-column">
+                            <h3>About</h3>
+                            <a href="about.html">About Us</a>
+                            <a href="about.html#team">Meet Our Members</a>
+                            <a href="contact.html">Contact Us</a>
+                        </div>
+                        
+                        <div class="footer-column">
+                            <h3>Resources</h3>
+                            <a href="cleanenergy.html">Clean Energy</a>
+                            <a href="goals.html">Goals by 2030</a>
+                            <a href="realapps.html">Applications</a>
+                        </div>
+                        
+                        <div class="footer-column">
+                            <h3>Tools</h3>
+                            <a href="energysave.html">Energy Saving</a>
+                            <a href="energycalculator.html">Energy Calculator</a>
+                            <a href="learning.html">Learning Resources</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-right-logo">
+                <a href="index.html"><img src="images/testlogo.png" alt="Logo"></a>
+                <a href="https://globalgoals.org/goals/7-affordable-and-clean-energy/" target="_blank"><img src="images/goal7.png" alt="Goal 7 Logo"></a>
+                <a href="https://globalgoals.org/" target="_blank"><img src="images/TheGlobalGoals.png" alt="The Global Goals"></a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="images/logotransparentthin.png" alt="Bottom Logo" style="height: 40px;"></a>
+                </div>
+                <div>
+                    <div>ALL RIGHTS RESERVED</div>
+                    <div>E.A.M.S &copy;</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+	
+	<script src="JS/script.js"></script>
+</body>
+</html>
